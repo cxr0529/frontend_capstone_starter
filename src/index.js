@@ -1,25 +1,8 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom/client';
-import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import './index.css';
 import App from './App';
-import Navbar from './Components/Navbar/navbar';
 import reportWebVitals from './reportWebVitals';
-
-function Index() {
-  return (
-    <div className="App">
-        <BrowserRouter>
-          <Navbar/>
-              <Routes>
-              </Routes>
-            
-        </BrowserRouter>
-       
-    </div>
-  );
-}
-export default Index;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

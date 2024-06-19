@@ -1,5 +1,5 @@
 import React from 'react';
-import './navbar.ccs';
+import './Navbar.ccs';
 
 function Navbar () {
     return (
