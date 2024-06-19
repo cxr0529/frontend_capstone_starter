@@ -1,5 +1,5 @@
 import React from 'react';
-import './Navbar.ccs';
+import '/home/project/frontend_capstone_starter/src/Components/Navbar/Navbar.css';
 
 function Navbar () {
     return (
