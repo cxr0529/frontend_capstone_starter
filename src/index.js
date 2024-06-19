@@ -6,7 +6,7 @@ import App from './App';
 import Navbar from './Components/Navbar/navbar';
 import reportWebVitals from './reportWebVitals';
 
-function App() {
+function Index() {
   return (
     <div className="App">
         <BrowserRouter>
@@ -19,7 +19,7 @@ function App() {
     </div>
   );
 }
-export default App;
+export default Index;
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
