@@ -3,13 +3,13 @@ import './signup.css'
 
 function Signup () {
     return (
-        <div className="container" style="margin-top: 5%;">
+        <div className="container" style={{marginTop: '5%'}}>
             <div className="signup-grid">
                 <div className="signup-text">
                     <h1>Sign Up</h1>
                 </div>
-                <div className="signup-text1" style="text-align: left;">
-                    Already a member? <span><a href="../Login/login.html" style="color: #2190FF;"> Login</a></span>
+                <div className="signup-text1" style={{textAlign: 'left'}}>
+                    Already a member? <span><a href="../Login/login.html" style={{color: '#2190FF'}}> Login</a></span>
                 </div>
                 <div className="signup-form">
                     <form>
