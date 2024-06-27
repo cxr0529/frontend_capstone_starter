@@ -8,6 +8,8 @@ import InstantConsultation from './Components/InstantConsultation/instantconsult
 import BookingConsultation from './Components/bookingConsultation.js';
 import Notification from './Components/Notification/notification.js';
 import ReviewForm from './Components/ReviewForm/reviewform.js';
+import ProfileForm from './Components/ProfileCard/profilecard.js';
+import ReportLayout from './Components/ReportLayout/reportlayout.js';
 
 function App() {
   return (
@@ -22,6 +24,8 @@ function App() {
                 <Route path="instantconsult" element={<InstantConsultation/>}/>
                 <Route path='booking' element={<BookingConsultation/>}/>
                 <Route path='reviews' element={<ReviewForm/>}/>
+                <Route path='profile' element={<ProfileForm/>}/>
+                <Route path='report' element={<ReportLayout/>}/>
               </Routes>
             </Notification>
         </BrowserRouter>
