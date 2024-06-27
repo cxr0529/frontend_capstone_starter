@@ -5,9 +5,7 @@ import LandingPage from './Components/LandingPage/landingpage.js';
 import Signup from './Components/Signup/signup.js';
 import Login from './Components/Login/login.js';
 import InstantConsultation from './Components/InstantConsultation/instantconsultation.js';
-import DoctorCardIC from './Components/DoctorCardIC/DoctorCardIC.js';
-import FindDoctorSearchIC from './Components/FindDoctorSearchIC/FindDoctorSearchIC.js';
-import AppointmentFormIC from './Components/AppointmentFormIC/AppointmentFormIC.js';
+import BookingConsultation from './Components/bookingConsultation.js';
 
 function App() {
   return (
@@ -19,9 +17,7 @@ function App() {
                 <Route path="signup" element={<Signup/>}/>
                 <Route path="login" element={<Login/>}/>
                 <Route path="instantconsult" element={<InstantConsultation/>}/>
-                <Route path='doctorcard' element={<DoctorCardIC/>}/>
-                <Route path='finddoctor' element={<FindDoctorSearchIC/>}/>
-                <Route path='appointment' element={<AppointmentFormIC/>}/>
+                <Route path='booking' element={<BookingConsultation/>}/>
               </Routes>
             
         </BrowserRouter>
