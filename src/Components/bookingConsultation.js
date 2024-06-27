@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import './BookingConsultation.css';
+import './bookingConsultation.css';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 import FindDoctorSearch from './FindDoctorSearch/FindDoctorSearch.js';
 import DoctorCard from './DoctorCard/DoctorCard.js';
